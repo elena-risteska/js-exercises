@@ -1,0 +1,28 @@
+#container {
+  margin: auto;
+  background-color: gray;
+  width: 350px;
+  height: 200px;
+  text-align: center;
+  border-radius: 5px;
+  align-content: center;
+  margin-top: 15%;
+}
+h2 {
+  padding: 10px;
+}
+button {
+  background: whitesmoke;
+  height: 40px;
+  width: 80px;
+  border-radius: 5px;
+  margin: 0px 5px;
+}
+#counter {
+  font-size: 20px;
+  font-weight: bold;
+}
+.button-container {
+  justify-content: center;
+  margin-top: 20px;
+}
