@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>To-do list</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="todo-app-container">
+      <div class="todo-app">
+        <h2>To-do list</h2>
+        <form action="#" id="todoForm">
+          <input
+            type="text"
+            class="todo-input"
+            placeholder="write something..."
+          />
+        </form>
+
+        <ul class="todo-list">
+          <li class="todo-item-container">
+            <div class="todo-item">
+              <input type="checkbox" class="todo-check" />
+              <span class="todo-item-label">da spijam</span>
+            </div>
+            <button class="x-button">&times;</button>
+          </li>
+          <li class="todo-item-container">
+            <div class="todo-item">
+              <input type="checkbox" class="todo-check" />
+              <span class="todo-item-label">da sonuvam</span>
+            </div>
+            <button class="x-button">&times;</button>
+          </li>
+        </ul>
+
+        <div class="remaining-container">
+          <span><span id="itemsRemaining"></span> tasks remaining</span>
+        </div>
+      </div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
