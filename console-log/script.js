@@ -44,14 +44,10 @@ function noSpace(string) {
   for (i = 0; i < string.length; i++) {
     if (string[i] !== " ") {
       newString += string[i];
-      // novaNiza.pop();    druga varijanta sho ne znam oti ne raboti
     }
-    // else {
-    //     novaNiza += niza[i];
-    // }
   }
   return newString;
-  // return niza.split(" ").join("");   druga varijanta za return
+  // return niza.split(" ").join("");   druga varijanta
 }
 console.log(noSpace("proveri dali ima"));
 

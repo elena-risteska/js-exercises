@@ -1,0 +1,20 @@
+#container {
+  margin: auto;
+  background-color: seagreen;
+  width: 350px;
+  height: 200px;
+  text-align: center;
+  align-content: center;
+  border-radius: 5px;
+  margin-top: 15%;
+}
+h2 {
+  padding: 10px;
+}
+button {
+  background: whitesmoke;
+  height: 40px;
+  width: 90px;
+  margin-top: 10px;
+  border-radius: 5px;
+}
